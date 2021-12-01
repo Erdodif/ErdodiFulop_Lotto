@@ -1,0 +1,10 @@
+#nagy{
+    -fx-font-size:35;
+ }
+ .button{
+    -fx-background-color: grey;
+    -fx-border-color: black;
+    -fx-border-width: 3;
+    -fx-border-style: solid;
+    -fx-font-size:20;
+ }
