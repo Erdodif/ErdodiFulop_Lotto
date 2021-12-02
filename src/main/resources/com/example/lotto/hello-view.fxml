@@ -24,14 +24,14 @@
             </rowConstraints>
             <children>
                 <Button prefWidth="110" prefHeight="60" alignment="CENTER" mnemonicParsing="false"
-                        GridPane.columnSpan="3" text="Sorsol" fx:id="buttonOfAll" onAction="#sorsolas"/>
+                        GridPane.columnSpan="3" text="Sorsol" fx:id="buttonOfAll" onAction="#sorsolVagyRendezVagyTorol"/>
                 <Label prefWidth="80" prefHeight="80" alignment="CENTER" id="nagy" text="90" GridPane.columnIndex="4"
                        GridPane.columnSpan="2" fx:id="nagy"/>
-                <Label text="Label" GridPane.rowIndex="1" fx:id="elso"/>
-                <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="1" fx:id="masodik"/>
-                <Label text="Label" GridPane.columnIndex="2" GridPane.rowIndex="1" fx:id="harmadik"/>
-                <Label text="Label" GridPane.columnIndex="3" GridPane.rowIndex="1" fx:id="negyedik"/>
-                <Label text="Label" GridPane.columnIndex="4" GridPane.rowIndex="1" fx:id="otodik"/>
+                <Label GridPane.rowIndex="1" fx:id="elso"/>
+                <Label GridPane.columnIndex="1" GridPane.rowIndex="1" fx:id="masodik"/>
+                <Label GridPane.columnIndex="2" GridPane.rowIndex="1" fx:id="harmadik"/>
+                <Label GridPane.columnIndex="3" GridPane.rowIndex="1" fx:id="negyedik"/>
+                <Label GridPane.columnIndex="4" GridPane.rowIndex="1" fx:id="otodik"/>
             </children>
         </GridPane>
     </children>
